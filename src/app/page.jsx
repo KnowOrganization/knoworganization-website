@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from './assets/logo/W-Back_B-Letter_box.png'
+import logo from '../assets/logo/W-Back_B-Letter_box.png'
 
 
 export default function Home() {
