@@ -36,7 +36,7 @@ const Hearder = () => {
 	return (
 		<div>
 			{loading && loadingState === 0 ? (
-				<div className=" h-screen w-screen flex justify-center items-center z-10">
+				<div className=" h-screen w-screen flex justify-center items-center z-10 ">
 					<h1 className=" font-anton text-9xl">KNOW</h1>
 					<div className=" z-10 bg-white rounded-full h-36 w-36 flex justify-center items-center text-3xl text-black">
 						<h1 id="progress">0</h1>

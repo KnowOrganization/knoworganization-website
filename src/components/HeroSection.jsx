@@ -2,6 +2,8 @@ import Button from "./Button";
 import ModelCanvas from "./Model";
 import Services from "./Services";
 import Clients from "./Clients";
+import WhyChooseUs from "./WhyChooseUs";
+import Contactus from "./Contactus";
 
 const HeroSection = () => {
 	return (
@@ -15,16 +17,15 @@ const HeroSection = () => {
 					</h1>
 					<h3 className=" text-2xl py-5 mr-10v font-montserrat font-light">
 						Welcome to Know Organization, where we specialize in
-						delivering cutting-edge IT solutions tailored to your needs.{" "}
+						delivering cutting-edge IT solutions tailored to your needs.
 						<br /> Ready to Transform Your Business? Know Infinite
 						Possibilities and Discover Your Potential Today!
 					</h3>
 					{/* <h3 className=" text-2xl py-5 mr-72 font-montserrat font-light">Ready to Transform Your Business? Know Infinite Possibilities and Discover Your Potential Today!</h3> */}
-					<Button text="Discover Your Potential" width="w-60" />
+					<Button text="Discover Your Potential" width="w-60" url="/knowcontact"/>
 				</div>
 				<div
 					className=" w-50v right-0 top-0 h-full relative   "
-
 				>
 					<div className=" h-60 w-60 absolute bg-gradient-to-tr from-purple-500 to-teal-400 blur-3xl"></div>
 					<ModelCanvas  model="./strip.gltf"/>
@@ -34,6 +35,8 @@ const HeroSection = () => {
 			</section>
 			<Services />
 			<Clients />
+			<WhyChooseUs />
+			<Contactus />
 		</div>
 	);
 };
