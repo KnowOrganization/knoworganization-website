@@ -7,9 +7,9 @@ import HeroSection2 from '@/components/HeroSection2'
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between px-28">
+    <main className="flex flex-col items-center justify-between md:px-28 px-10">
         {/* <Header /> */}
-      <HeroSection />
+      {/* <HeroSection /> */}
     </main>
   )
 }
