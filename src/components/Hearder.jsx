@@ -67,7 +67,7 @@ const Hearder = () => {
 					</div>
 					<div className="flex flex-col items-center justify-between md:px-28 px-10">
 
-					<HeroSection />
+					{/* <HeroSection /> */}
 					</div>
 				</div>
 			 )}

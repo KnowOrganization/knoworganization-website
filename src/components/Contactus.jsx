@@ -9,7 +9,7 @@ const Contactus = () => {
 			</div>
 
 			<div className="flex justify-center items-center">
-				<Button text="Discover Your Potential" width="w-60" url="/knowabout" />
+				<Button text="Discover Your Potential" width="w-60" url="/knowcontact" />
 			</div>
 			<span className=" absolute  right-0 h-30v w-40v bg-gradient-to-tr from-primary to-purple-500 blur-3xl opacity-30 -z-10"></span>
 		</div>
