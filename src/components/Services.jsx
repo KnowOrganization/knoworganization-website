@@ -56,7 +56,7 @@ const Services = () => {
 			</div>
 
 			<div className="flex justify-center items-center">
-				<Button text="Discover Services" width="w-60" url="/knowservices"/>
+				<Button text="Discover Services" width="w-60" url="knowservices"/>
 			</div>
 		</div>
 	);
