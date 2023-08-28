@@ -20,19 +20,19 @@ const deleteAccount = () => {
         <br />
         <b className="text-xl font-mono font-bold">Step 2:</b>
         <br />
-        Navigate to the "Settings" or "Account" section within the app. This can
+        Navigate to the &quot;Settings&quot; or &quot;Account&quot; section within the app. This can
         usually be found by tapping on your profile picture or the menu icon.
         <br />
         <br />
         <b className="text-xl font-mono font-bold">Step 3:</b>
         <br />
-        Look for the option related to "Account Settings," "Privacy," or "Delete
-        Account." The specific wording may vary depending on the app&apos;s design.
+        Look for the option related to &quot;Account Settings,&quot; &quot;Privacy,&quot; or &quot;Delete
+        Account.&quot; The specific wording may vary depending on the app&apos;s design.
         <br />
         <br />
         <b className="text-xl font-mono font-bold">Step 4:</b>
         <br />
-        Tap on the "Delete Account" option.
+        Tap on the &quot;Delete Account&quot; option.
         <br />
         <br />
         <b className="text-xl font-mono font-bold ">Note:</b>
