@@ -36,23 +36,23 @@ const Hearder = () => {
 	return (
 		<div>
 			{loading && loadingState === 0 ? (
-				<div className=" h-screen w-screen flex justify-center items-center z-10">
-					<h1 className=" font-anton text-9xl">KNOW</h1>
-					<div className=" z-10 bg-white rounded-full h-36 w-36 flex justify-center items-center text-3xl text-black">
-						<h1 id="progress">0</h1>
+				<div className=" h-screen w-screen flex fixed justify-center items-center z-10 ">
+					<h1 className=" font-anton md:text-9xl text-5xl">KNOW</h1>
+					<div className=" z-10 bg-white rounded-full md:h-36 md:w-36 h-14 w-14 flex justify-center items-center text-3xl text-black">
+						<h1 id="progress" className=" text-xl">0</h1>
 					</div>
 				</div>
 			) : loading && loadingState === 1 ? (
-				<motion.div className=" h-screen w-screen flex justify-center items-center z-10">
+				<motion.div className=" h-screen w-screen flex fixed justify-center items-center z-10 ">
 					<motion.h1
 						animate={{ opacity: 0, scale: 10 }}
 						transition={{ duration: 1 }}
-						className=" font-anton text-9xl"
+						className=" font-anton md:text-9xl text-5xl"
 					>
 						KNOW
 					</motion.h1>
 					<motion.div
-						className=" bg-white rounded-full h-36 w-36 flex justify-center items-center text-3xl text-black"
+						className=" bg-white rounded-full md:h-36 md:w-36 h-14 w-14 flex justify-center items-center text-3xl text-black"
 						animate={{ opacity: 0, scale: 10 }}
 						transition={{ duration: 1 }}
 					></motion.div>
@@ -60,12 +60,15 @@ const Hearder = () => {
 			) : (
 				<div>
 					<div className=" flex justify-between items-center flex-row z-10 ">
-						<Image className=" mx-10 my-5" src={logo} height={70} />
-						<div className=" mx-10 my-5">
+						<Image className=" md:mx-10 mx-3 my-5" src={logo} height={70} />
+						<div className=" md:mx-10 mx-3 my-5">
 							<Hamburger />
 						</div>
 					</div>
-					{/* <HeroSection2 /> */}
+					<div className="flex flex-col items-center justify-between md:px-28 px-10">
+
+					{/* <HeroSection /> */}
+					</div>
 				</div>
 			 )}
 		</div>
