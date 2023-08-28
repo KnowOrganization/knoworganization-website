@@ -36,7 +36,7 @@ const PrivacyPlicy = () => {
         <br />
         We may collect usage data, technical information, and device-related
         data, such as device model, operating system, and network information.
-        This helps us optimize the App's performance, troubleshoot issues, and
+        This helps us optimize the App&apos;s performance, troubleshoot issues, and
         improve user experience.
         <br />
         <br />
@@ -58,7 +58,7 @@ const PrivacyPlicy = () => {
         <b className="text-xl font-mono font-bold">Other Information:</b>
         <br />
         Usage data and technical information are used to analyze and improve the
-        App's functionality, troubleshoot technical issues, and enhance user
+        App&apos;s functionality, troubleshoot technical issues, and enhance user
         experience.
         <br />
         <br />
@@ -66,7 +66,7 @@ const PrivacyPlicy = () => {
           How We Share Your Information:
         </b>
         <br />
-        We share your location information within your organization's authorized
+        We share your location information within your organization&apos;s authorized
         personnel for workplace safety and collaboration purposes. We do not
         share your personal information with third parties except as described
         in this Privacy Policy or with your consent.
