@@ -2,13 +2,10 @@
 import { useState } from "react";
 import { useFormInputValidation } from "react-form-input-validation";
 const knowcontact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [msg, setMsg] = useState("");
-
-  console.log(name);
-  console.log(email);
-  console.log(msg);
+  // for firebase use
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [msg, setMsg] = useState("");
 
   const [fields, errors, form] = useFormInputValidation(
     {
