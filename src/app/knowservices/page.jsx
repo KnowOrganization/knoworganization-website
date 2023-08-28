@@ -59,7 +59,7 @@ const Knowservices = () => {
           {/* cs Image */}
           <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 h-screen md:h-auto items-center">
             <div className="md:flex justify-center h-full items-center ">
-              <Image src={cs} className="w-full md:w-3/4 lg:w-full" />
+              <Image src={cs} className="w-full md:w-3/4 lg:w-full" alt="img" />
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ const Knowservices = () => {
           <span className="-z-10  absolute left-10 h-20 top-52 md:w-96 w-36 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
           <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 h-screen md:h-auto items-center">
             <div className="md:flex  justify-center h-full items-center">
-              <Image src={wd} className="w-full md:w-3/4 lg:w-full" />
+              <Image src={wd} className="w-full md:w-3/4 lg:w-full" alt="img"/>
             </div>
           </div>
           <div className="w-full md:w-3/5 p-10  h-screen md:h-auto flex flex-col justify-center float-left ">
@@ -95,7 +95,7 @@ const Knowservices = () => {
               optimization.
               <br />
               <b className="text-xl">E-Commerce Solutions:</b>
-              If you're looking to establish an online store, we create robust
+              If you&apos;re looking to establish an online store, we create robust
               e-commerce platforms that facilitate seamless transactions,
               inventory management, and customer engagement. <br />
               <b className="text-xl">Content Management Systems (CMS):</b>
@@ -137,7 +137,7 @@ const Knowservices = () => {
           {/* cs Image */}
           <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 h-screen md:h-auto items-center">
             <div className="flex  justify-center h-full items-center">
-              <Image src={ad} className="w-full md:w-3/4 lg:w-full" />
+              <Image src={ad} className="w-full md:w-3/4 lg:w-full" alt="img" />
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@ const Knowservices = () => {
       
           <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 h-screen md:h-auto items-center">
             <div className="md:flex  justify-center h-full items-center">
-              <Image src={dev} className="w-full md:w-3/4 lg:w-full" />
+              <Image src={dev} className="w-full md:w-3/4 lg:w-full" alt="img" />
             </div>
           </div>
           <div className="w-full md:w-3/5 p-10  h-screen md:h-auto flex flex-col justify-center float-left">
@@ -171,7 +171,7 @@ const Knowservices = () => {
               results in faster development cycles, improved quality, and
               enhanced customer experiences. <br />
               <b className="text-xl">Migration:</b>
-              If you're considering migrating your applications to the cloud, we
+              If you&apos;re considering migrating your applications to the cloud, we
               ensure a smooth transition. Our team handles migration tasks,
               ensuring minimal downtime and maximum efficiency. <br />
             </p>
@@ -179,9 +179,9 @@ const Knowservices = () => {
         </div>
         <p className="md:text-2xl text-xl text-center font-montserrat pt-14">
           At Know. organization, our services are driven by a commitment to
-          excellence, innovation, and customer satisfaction. Whether it's custom
+          excellence, innovation, and customer satisfaction. Whether it&apos;s custom
           software, web development, application creation, or DevOps
-          integration, we're here to empower your business with cutting-edge
+          integration, we&apos;re here to empower your business with cutting-edge
           solutions tailored to your needs. Contact us today to discuss how we
           can transform your ideas into reality.
         </p>
