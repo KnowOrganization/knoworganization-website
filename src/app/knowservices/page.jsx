@@ -3,7 +3,7 @@ import cs from "../../assets/images/cs.png";
 import wd from "../../assets/images/wd.png";
 import ad from "../../assets/images/ad.png";
 import dev from "../../assets/images/dev.png";
-const knowservices = () => {
+const Knowservices = () => {
   return (
     <div>
       <span className=" -z-10 absolute right-10 h-44 top-10 md:w-44 w-44 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
@@ -190,4 +190,4 @@ const knowservices = () => {
   );
 };
 
-export default knowservices;
+export default Knowservices;
