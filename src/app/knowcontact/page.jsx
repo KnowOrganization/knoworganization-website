@@ -1,6 +1,6 @@
-"use client";
-import { useState } from "react";
-import { useFormInputValidation } from "react-form-input-validation";
+// "use client";
+// import { useState } from "react";
+// import { useFormInputValidation } from "react-form-input-validation";
 const Knowcontact = () => {
   // for firebase use
   // const [name, setName] = useState("");
