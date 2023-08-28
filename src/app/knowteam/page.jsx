@@ -1,4 +1,4 @@
-const knowteam = () => {
+const Knowteam = () => {
     return (
         <div>
             know team
@@ -6,4 +6,4 @@ const knowteam = () => {
     );
 }
 
-export default knowteam;
+export default Knowteam;

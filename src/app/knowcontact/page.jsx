@@ -1,35 +1,35 @@
 "use client";
 import { useState } from "react";
 import { useFormInputValidation } from "react-form-input-validation";
-const knowcontact = () => {
+const Knowcontact = () => {
   // for firebase use
   // const [name, setName] = useState("");
   // const [email, setEmail] = useState("");
   // const [msg, setMsg] = useState("");
 
-  // const [fields, errors, form] = useFormInputValidation(
-  //   {
-  //     name: "",
-  //     email: "",
-  //     message: "",
-  //   },
-  //   {
-  //     name: "required",
-  //     email: "required|email",
-  //     message: "required",
-  //   }
-  // );
-  // const [isModalOpen, setIsModalOpen] = useState(false);
+  const [fields, errors, form] = useFormInputValidation(
+    {
+      name: "",
+      email: "",
+      message: "",
+    },
+    {
+      name: "required",
+      email: "required|email",
+      message: "required",
+    }
+  );
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // const openModal = () => {
-  //   setIsModalOpen(true);
-  //   console.log(isModalOpen);
-  // };
+  const openModal = () => {
+    setIsModalOpen(true);
+    console.log(isModalOpen);
+  };
 
-  // const closeModal = () => {
-  //   setIsModalOpen(false);
-  //   console.log(isModalOpen);
-  // };
+  const closeModal = () => {
+    setIsModalOpen(false);
+    console.log(isModalOpen);
+  };
   return (
     <div className="">
       <div className="flex justify-center items-center md:block">
@@ -49,7 +49,7 @@ const knowcontact = () => {
       <div className="flex float-right justify-center item-center">
         <h1
           className="lg:float-left flex justify-center items-center font-anton md:py-10 md:mx-20 mx-7 text-6xl lg:text-7xl text-teal-500 cursor-pointer bg-gradient-to-l from-teal-500 to-purple-500 text-transparent bg-clip-text"
-          // onClick={openModal}
+          onClick={openModal}
         >
           Lets Talk
           <span className="text-bold bg-gradient-to-l from-purple-500 to-teal-500 text-transparent bg-clip-text">
@@ -58,7 +58,7 @@ const knowcontact = () => {
         </h1>
       </div>
       
-      {/*{isModalOpen && (
+      {isModalOpen && (
         <div className="fixed inset-0 bg-black z-50 flex-col justify-center items-center w-screen h-screen  ">
           <span className=" -z-10 absolute right-10 h-44 top-10 md:w-44 w-44 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
           <span className=" -z-10  absolute bottom-10 right-96  h-52 md:w-52 w-44 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
@@ -131,9 +131,9 @@ const knowcontact = () => {
           
         </div>
       )}
-    */}
+   
     </div>
   );
 };
 
-export default knowcontact;
+export default Knowcontact;
