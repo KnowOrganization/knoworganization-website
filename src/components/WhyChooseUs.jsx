@@ -17,35 +17,35 @@ const WhyChooseUs = () => {
 				</ul> */}
 				{/* <span className=" absolute right-0 h-40v w-30v bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60 -z-10"></span> */}
 
-				<div class="flex flex-wrap justify-center items-center text md:text-7xl text-3xl text-gray-500 my-20 font-anton text-center z-10 ">
-					<div class=" hover:text-white hover:scale-110 hover:sc transition md:text-8xl">
+				<div className="flex flex-wrap justify-center items-center text md:text-7xl text-3xl text-gray-500 my-20 font-anton text-center z-10 ">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition md:text-8xl">
 						Expertise that Drives Results
 					</div>
-					<div class=" hover:text-white hover:scale-110 hover:sc transition  md:text-4xl">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition  md:text-4xl">
 						Customer-Centric Approach
 					</div>
-					<div class=" hover:text-white hover:scale-110 hover:sc transition md:text-6xl">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition md:text-6xl">
 						Innovation at the Core
 					</div>
-					<div class=" hover:text-white hover:scale-110 hover:sc transition  md:text-4xl">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition  md:text-4xl">
 						Collaborative Partnership
 					</div>
-					<div class=" hover:text-white hover:scale-110 hover:sc transition md:text-6xl">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition md:text-6xl">
 						Agility and Adaptability
 					</div>
-					<div class=" hover:text-white hover:scale-110 hover:sc transition md:text-7xl">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition md:text-7xl">
 						Proven Track Record
 					</div>
-					<div class=" hover:text-white hover:scale-110 hover:sc transition  md:text-9xl">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition  md:text-9xl">
 						End-to-End Services
 					</div>
-					<div class=" hover:text-white hover:scale-110 hover:sc transition md:text-7xl">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition md:text-7xl">
 						Cost-Effective Solutions
 					</div>
-					<div class=" hover:text-white hover:scale-110 hover:sc transition md:text-3xl">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition md:text-3xl">
 						Passion for Your Success
 					</div>
-					<div class=" hover:text-white hover:scale-110 hover:sc transition md:text-8xl">
+					<div className=" hover:text-white hover:scale-110 hover:sc transition md:text-8xl">
 						Focus on Quality and Security
 					</div>
 				</div>

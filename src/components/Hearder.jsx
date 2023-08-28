@@ -18,7 +18,8 @@ const Hearder = () => {
 		setTimeout(() => {
 			setLoading(false);
 		}, 2500);
-	}, [progresCount]);
+   // eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []); // eslint-disable-line react-hooks/exhaustive-deps
 
 	const progresCount = () => {
 		setTimeout(async () => {
