@@ -18,6 +18,7 @@ const Hearder = () => {
 		setTimeout(() => {
 			setLoading(false);
 		}, 2500);
+		// eslint-disable-next-line
 	}, []);
 
 	const progresCount = () => {
