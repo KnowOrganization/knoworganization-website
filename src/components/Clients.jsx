@@ -15,11 +15,11 @@ const Clients = () => {
                 </div>
 				<ul className="my-20 flex md:flex-row  flex-col">
 					<li className=" text-4xl font-montserrat font-light my-10 md:px-20 md:mx-20 py-3 w-full flex flex-col items-center justify-center gap-10">
-                        <Image className=" border-8 " src={safeair} width={200} height={200} />
+                        <Image className=" border-8 " src={safeair} width={200} height={200} alt="img" />
                         <h1 className=" text-center">SafeAir</h1>
 					</li>
 					<li className=" text-4xl font-montserrat font-light my-10 md:px-20 md:mx-20 py-3 w-full flex flex-col items-center justify-center gap-10">
-                    <Image className=" border-8 " src="/images/clients/1.png" width={200} height={200} />
+                    <Image className=" border-8 " src="/images/clients/1.png" width={200} height={200} alt="img" />
                         <h1 className=" text-center">Global AgriTech</h1>
 					</li>
 				</ul>

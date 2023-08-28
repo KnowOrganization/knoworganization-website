@@ -18,7 +18,7 @@ const Hearder = () => {
 		setTimeout(() => {
 			setLoading(false);
 		}, 2500);
-	}, []);
+	}, [progresCount]);
 
 	const progresCount = () => {
 		setTimeout(async () => {
@@ -60,7 +60,7 @@ const Hearder = () => {
 			) : (
 				<div>
 					<div className=" flex justify-between items-center flex-row z-10 ">
-						<Image className=" md:mx-10 mx-3 my-5" src={logo} height={70} />
+						<Image className=" md:mx-10 mx-3 my-5" src={logo} height={70} alt="img" />
 						<div className=" md:mx-10 mx-3 my-5">
 							<Hamburger />
 						</div>
