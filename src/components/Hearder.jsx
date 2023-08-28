@@ -18,7 +18,7 @@ const Hearder = () => {
 		setTimeout(() => {
 			setLoading(false);
 		}, 2500);
-	}, [progresCount]);
+	}, []);
 
 	const progresCount = () => {
 		setTimeout(async () => {
