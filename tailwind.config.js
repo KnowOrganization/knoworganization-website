@@ -52,6 +52,13 @@ module.exports = {
 				primary: '#222222',
 
 			},
+			backdropBlur:{
+				"4xl": "72px",
+				"5xl": "84px",
+				"6xl": "96px",
+				"7xl": "105px",
+				"8xl": "120px",
+			}
 		},
 	},
 	plugins: [],
