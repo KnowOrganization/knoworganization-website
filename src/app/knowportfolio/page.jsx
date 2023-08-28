@@ -1,4 +1,4 @@
-const knowportfolio = () => {
+const Knowportfolio = () => {
     return (
         <div>
             Enter
@@ -6,4 +6,4 @@ const knowportfolio = () => {
     );
 }
 
-export default knowportfolio;
+export default Knowportfolio;

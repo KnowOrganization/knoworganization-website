@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useFormInputValidation } from "react-form-input-validation";
-const knowcontact = () => {
+const Knowcontact = () => {
   // for firebase use
   // const [name, setName] = useState("");
   // const [email, setEmail] = useState("");
@@ -57,6 +57,7 @@ const knowcontact = () => {
           </span>
         </h1>
       </div>
+      
       {isModalOpen && (
         <div className="fixed inset-0 bg-black z-50 flex-col justify-center items-center w-screen h-screen  ">
           <span className=" -z-10 absolute right-10 h-44 top-10 md:w-44 w-44 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
@@ -127,11 +128,12 @@ const knowcontact = () => {
             </button>
           </form>
 
-          {/* </div> */}
+          
         </div>
       )}
+   
     </div>
   );
 };
 
-export default knowcontact;
+export default Knowcontact;
