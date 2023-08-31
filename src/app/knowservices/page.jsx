@@ -10,17 +10,17 @@ const Knowservices = () => {
       <span className=" -z-10  absolute bottom-10 right-96  h-52 md:w-52 w-44 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
       <span className="-z-10  absolute bottom-0 left-40 top-80 h-20 md:w-96 w-52 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
       <span className="-z-10  absolute left-10 h-20 top-52 md:w-96 w-36 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
-      <div className="md:m-20 m-10">
+      <div className="md:m-20 m-10 relative">
         <h1 className=" text-7xl font-anton bg-gradient-to-t from-purple-500 to-teal-500 text-transparent bg-clip-text text-center">
           What We Do
         </h1>
         {/* custom services */}
-        <div className="md:w-full md:flex md:justify-center">
-          <div className="w-full md:w-3/5 h-screen md:h-auto flex flex-col justify-center float-left">
-            <h1 className=" text-4xl font-anton lg:pt-20 pt-36  px-6 md:px-20 pb-10 font-bold  float-left text-center lg:text-left">
+        <div className="md:w-full md:flex md:justify-center relative">
+          <div className="w-full md:w-3/5 lg:h-screen h-auto flex flex-col justify-center float-left">
+            <h1 className=" text-4xl font-anton pt-20   md:px-20 pb-10 font-bold  float-left text-center lg:text-left">
               Custom Software Development
             </h1>
-            <p className="px-6 md:px-20  md:text-lg text-center lg:text-left text-xl font-anton">
+            <p className=" md:px-20  md:text-lg text-center lg:text-left text-xl font-anton">
               At Know. organization , we recognize that your business is unique,
               and so are your software needs. Our custom software services are
               designed to create tailored solutions that perfectly align with
@@ -57,7 +57,7 @@ const Knowservices = () => {
           </div>
 
           {/* cs Image */}
-          <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 h-screen md:h-auto items-center">
+          <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 lg:h-screen h-auto items-center">
             <div className="md:flex justify-center h-full items-center ">
               <Image src={cs} className="w-full md:w-3/4 lg:w-full" alt="img" />
             </div>
@@ -70,12 +70,12 @@ const Knowservices = () => {
           <span className=" -z-10  absolute bottom-10 right-96  h-52 md:w-52 w-44 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
           <span className="-z-10  absolute bottom-0 left-40 top-80 h-20 md:w-96 w-52 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
           <span className="-z-10  absolute left-10 h-20 top-52 md:w-96 w-36 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
-          <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 h-screen md:h-auto items-center">
+          <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 lg:h-screen h-auto items-center">
             <div className="md:flex  justify-center h-full items-center">
               <Image src={wd} className="w-full md:w-3/4 lg:w-full" alt="img"/>
             </div>
           </div>
-          <div className="w-full md:w-3/5 p-10  h-screen md:h-auto flex flex-col justify-center float-left ">
+          <div className="w-full md:w-3/5 md:p-10 py-10  lg:h-screen h-auto flex flex-col justify-center float-left ">
             <h1 className="text-4xl font-anton pt-20   pb-10 font-bold  float-left text-center lg:text-left">
               Web Develpment
             </h1>
@@ -111,11 +111,11 @@ const Knowservices = () => {
       <span className="-z-10  absolute bottom-0 left-40 top-80 h-20 md:w-96 w-52 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
       <span className="-z-10  absolute left-10 h-20 top-52 md:w-96 w-36 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
       
-          <div className="w-full md:w-3/5 h-screen md:h-auto flex flex-col justify-center float-left">
-            <h1 className=" text-4xl font-anton pt-20  px-6 pb-10 font-bold  float-left text-center lg:text-left">
+          <div className="w-full md:w-3/5 lg:h-screen h-auto flex flex-col justify-center float-left">
+            <h1 className=" text-4xl font-anton pt-20   pb-10 font-bold  float-left text-center lg:text-left">
               Application Development
             </h1>
-            <p className="px-6   md:text-lg text-center lg:text-left text-xl font-anton">
+            <p className="  md:text-lg text-center lg:text-left text-xl font-anton">
               Our application development services cover a wide spectrum of
               platforms and technologies: <br />
               <br />
@@ -135,7 +135,7 @@ const Knowservices = () => {
           </div>
 
           {/* cs Image */}
-          <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 h-screen md:h-auto items-center">
+          <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 lg:h-screen h-auto items-center">
             <div className="flex  justify-center h-full items-center">
               <Image src={ad} className="w-full md:w-3/4 lg:w-full" alt="img" />
             </div>
@@ -148,12 +148,12 @@ const Knowservices = () => {
       <span className="-z-10  absolute bottom-0 left-40 top-80 h-20 md:w-96 w-52 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
       <span className="-z-10  absolute left-10 h-20 top-52 md:w-96 w-36 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
       
-          <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 h-screen md:h-auto items-center">
+          <div className="w-full md:w-2/5 md:flex hidden justify-center py-10 md:py-0 lg:h-screen h-auto items-center">
             <div className="md:flex  justify-center h-full items-center">
               <Image src={dev} className="w-full md:w-3/4 lg:w-full" alt="img" />
             </div>
           </div>
-          <div className="w-full md:w-3/5 p-10  h-screen md:h-auto flex flex-col justify-center float-left">
+          <div className="w-full md:w-3/5 md:p-10 py-10  lg:h-screen h-auto flex flex-col justify-center float-left">
             <h1 className="text-4xl font-anton pt-20   pb-10 font-bold  float-left text-center lg:text-left">
               DevOps Consultation, Adoption, and Migration:
             </h1>
