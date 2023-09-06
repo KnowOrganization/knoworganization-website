@@ -77,7 +77,7 @@ const Knowservices = () => {
           </div>
           <div className="w-full md:w-3/5 md:p-10 py-10  lg:h-screen h-auto flex flex-col justify-center float-left ">
             <h1 className="text-4xl font-anton pt-20   pb-10 font-bold  float-left text-center lg:text-left">
-              Web Develpment
+              Web Development
             </h1>
             <p className="  md:text-lg text-center lg:text-left text-xl font-anton">
               Our web development services are aimed at creating dynamic,
