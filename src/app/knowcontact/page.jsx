@@ -44,7 +44,7 @@ const Knowcontact = () => {
       </div>
       <hr className="w-screen" />
       <p className="float-left text-xl lg:m-5 m-7">
-        knoworganization@mail.com | 8793773287 |
+        business@knoworganization.com | 8830529524 |
       </p>
       <div className="flex float-right justify-center item-center">
         <h1
