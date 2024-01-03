@@ -16,7 +16,7 @@ const Knowabout = () => {
           <h1 className=" text-7xl font-anton bg-gradient-to-t from-purple-500 to-teal-500 text-transparent bg-clip-text text-center">
             About Us
           </h1>
-          <p className="font-bold text-2xl md:px-20 text-center ">
+          <p className="font-bold text-2xl md:px-20 pt-10 text-center ">
             Welcome to Know Organization , where excellence meets innovation. As
             a dynamic and forward-thinking organization, we take immense pride
             in our achievements, our unwavering vision, and the empowering
@@ -24,11 +24,11 @@ const Knowabout = () => {
           </p>
           {/* custom services */}
           <div className="md:w-full md:flex md:justify-center relative">
-            <div className="w-full md:w-3/5 h-auto flex flex-col justify-center float-left">
+            <div className="w-full md:w-3/5  flex flex-col justify-center float-left">
               <h1 className=" text-4xl font-anton pt-20   md:px-20 pb-10 font-bold  float-left text-center lg:text-left">
                 Our Achievements
               </h1>
-              <p className=" md:px-20  md:text-lg text-center lg:text-left text-xl font-anton">
+              <p className=" md:px-20  md:text-lg text-center lg:text-left text-xl ">
                 We&apos;ve carved out a remarkable journey filled with milestones
                 that speak volumes about our dedication to excellence. From
                 pioneering groundbreaking solutions in domain to collaborating
@@ -70,7 +70,7 @@ const Knowabout = () => {
               <h1 className="text-4xl font-anton pt-20   pb-10 font-bold  float-left text-center lg:text-left">
                 Our Vision
               </h1>
-              <p className="  md:text-lg text-center lg:text-right text-xl font-anton">
+              <p className="  md:text-lg text-center lg:text-right text-xl ">
                 At Know Organization, our vision is to create a world that
                 thrives on innovation, sustainability, and positive change. We
                 envision a future where our pioneering efforts lead the industry
@@ -111,7 +111,7 @@ const Knowabout = () => {
               <h1 className=" text-4xl font-anton pt-20   pb-10 font-bold  float-left text-center lg:text-left">
                 Our Working Environment
               </h1>
-              <p className="  md:text-lg text-center lg:text-left text-xl font-anton">
+              <p className="  md:text-lg text-center lg:text-left text-xl ">
                 We believe that the best results are born in an environment that
                 fosters collaboration, creativity, and growth. Our team is our
                 greatest asset, and we&apos;re committed to providing them with a
@@ -161,7 +161,7 @@ const Knowabout = () => {
               <h1 className="text-4xl font-anton pt-20   pb-10 font-bold  float-left text-center lg:text-left">
                 Join Us in Shaping the Future
               </h1>
-              <p className="  md:text-lg text-center lg:text-left text-xl font-anton">
+              <p className="  md:text-lg text-center lg:text-left text-xl">
                 We are not just focused on professional success; we are equally
                 dedicated to making a positive impact on the communities we
                 serve. Through our various corporate social responsibility
@@ -177,7 +177,7 @@ const Knowabout = () => {
               </p>
             </div>
           </div>
-          <p className="md:text-2xl text-xl text-center font-montserrat pt-14">
+          <p className="md:text-xl text-xl text-center font-montserrat pt-14">
             At Know. organization, our services are driven by a commitment to
             excellence, innovation, and customer satisfaction. Whether it&apos;s
             custom software, web development, application creation, or DevOps

@@ -40,9 +40,6 @@ const Hamburger = () => {
               <Link href="knowabout" onClick={closeMenu} className=" cursor-pointer lg: md:text-6xl text-4xl  font-anton hover:bg-gradient-to-l hover:from-teal-500 hover:to-purple-500 hover:text-transparent hover:bg-clip-text">About us</Link>
             </li>
             <li className=" my-7 md:my-5 mx-10">
-              <Link href="knowportfolio" onClick={closeMenu} className=" cursor-pointer md:text-6xl text-4xl font-anton hover:bg-gradient-to-l hover:from-teal-500 hover:to-purple-500 hover:text-transparent hover:bg-clip-text">Portfolio</Link>
-            </li>
-            <li className=" my-7 md:my-5 mx-10">
               <Link href="knowservices" onClick={closeMenu} className=" cursor-pointer md:text-6xl text-4xl font-anton hover:bg-gradient-to-l hover:from-teal-500 hover:to-purple-500 hover:text-transparent hover:bg-clip-text">Services</Link>
             </li>
             <li className=" my-7 md:my-5 mx-10">

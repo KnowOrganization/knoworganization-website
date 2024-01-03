@@ -2,63 +2,63 @@
 // import { useState } from "react";
 // import { useFormInputValidation } from "react-form-input-validation";
 const Knowcontact = () => {
-  // for firebase use
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [msg, setMsg] = useState("");
+	// for firebase use
+	// const [name, setName] = useState("");
+	// const [email, setEmail] = useState("");
+	// const [msg, setMsg] = useState("");
 
-  // const [fields, errors, form] = useFormInputValidation(
-  //   {
-  //     name: "",
-  //     email: "",
-  //     message: "",
-  //   },
-  //   {
-  //     name: "required",
-  //     email: "required|email",
-  //     message: "required",
-  //   }
-  // );
-  // const [isModalOpen, setIsModalOpen] = useState(false);
+	// const [fields, errors, form] = useFormInputValidation(
+	//   {
+	//     name: "",
+	//     email: "",
+	//     message: "",
+	//   },
+	//   {
+	//     name: "required",
+	//     email: "required|email",
+	//     message: "required",
+	//   }
+	// );
+	// const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // const openModal = () => {
-  //   setIsModalOpen(true);
-  //   console.log(isModalOpen);
-  // };
+	// const openModal = () => {
+	//   setIsModalOpen(true);
+	//   console.log(isModalOpen);
+	// };
 
-  // const closeModal = () => {
-  //   setIsModalOpen(false);
-  //   console.log(isModalOpen);
-  // };
-  return (
-    <div className="">
-      <div className="flex justify-center items-center md:block">
-        <h1 className=" font-montserrat lg:pt-40 pt-20  lg:mx-20 mx-36 text-6xl  md:text-7xl uppercase">
-          Got a project?
-          <span className="absolute lg:right-10 right-2 h-44 lg:top-10 -top-5 md:w-44 w-44 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
-          <span className="  absolute lg:bottom-10 -bottom-10 lg:right-96 -right-5  h-52 md:w-52 w-44 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
-          <span className=" absolute lg:bottom-0  lg:left-40 -left-20 lg:top-80  h-20 md:w-96 w-52 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
-          <span className=" absolute lg:left-10 left-20 h-20 lg:top-52 md:w-96 w-36 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
-        </h1>
-        <br />
-      </div>
-      <hr className="w-screen" />
-      <p className="float-left text-xl lg:m-5 m-7">
-        business@knoworganization.com | 8830529524 |
-      </p>
-      <div className="flex float-right justify-center item-center">
-        <h1
-          className="lg:float-left flex justify-center items-center font-anton md:py-10 md:mx-20 mx-7 text-6xl lg:text-7xl text-teal-500 cursor-pointer bg-gradient-to-l from-teal-500 to-purple-500 text-transparent bg-clip-text"
-          // onClick={openModal}
-        >
-          Lets Talk
-          <span className="text-bold bg-gradient-to-l from-purple-500 to-teal-500 text-transparent bg-clip-text">
-            &#10132;
-          </span>
-        </h1>
-      </div>
-      
-      {/* {isModalOpen && (
+	// const closeModal = () => {
+	//   setIsModalOpen(false);
+	//   console.log(isModalOpen);
+	// };
+	return (
+		<div className="">
+			<div className="flex justify-center items-center md:block">
+				<h1 className=" font-montserrat lg:pt-40 pt-20  lg:mx-20 mx-36 text-6xl  md:text-7xl uppercase">
+					Got a project?
+					<span className="absolute lg:right-10 right-2 h-44 lg:top-10 -top-5 md:w-44 w-44 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
+					<span className="  absolute lg:bottom-10 -bottom-10 lg:right-96 -right-5  h-52 md:w-52 w-44 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
+					<span className=" absolute lg:bottom-0  lg:left-40 -left-20 lg:top-80  h-20 md:w-96 w-52 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
+					<span className=" absolute lg:left-10 left-20 h-20 lg:top-52 md:w-96 w-36 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
+				</h1>
+				<br />
+			</div>
+			<hr className="w-screen" />
+			<p className=" float-right text-xl lg:m-5 m-20 px-20 py-10">
+				business@knoworganization.com
+			</p>
+			<div className="flex float-left justify-center item-center">
+				<h1
+					className="lg:float-left flex justify-center items-center font-anton md:py-10 md:mx-20 mx-7 text-6xl lg:text-7xl text-teal-500 cursor-pointer bg-gradient-to-l from-teal-500 to-purple-500 text-transparent bg-clip-text"
+					// onClick={openModal}
+				>
+					Lets Talk
+					<span className="text-bold bg-gradient-to-l from-purple-500 to-teal-500 text-transparent bg-clip-text">
+						&#10132;
+					</span>
+				</h1>
+			</div>
+
+			{/* {isModalOpen && (
         <div className="fixed inset-0 bg-black z-50 flex-col justify-center items-center w-screen h-screen  ">
           <span className=" -z-10 absolute right-10 h-44 top-10 md:w-44 w-44 bg-gradient-to-tr from-primary to-purple-500 blur-3xl"></span>
           <span className=" -z-10  absolute bottom-10 right-96  h-52 md:w-52 w-44 bg-gradient-to-tr from-primary to-teal-500 blur-3xl opacity-60"></span>
@@ -131,9 +131,8 @@ const Knowcontact = () => {
           
         </div>
       )} */}
-   
-    </div>
-  );
+		</div>
+	);
 };
 
 export default Knowcontact;

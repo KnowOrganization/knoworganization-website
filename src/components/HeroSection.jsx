@@ -36,10 +36,10 @@ const HeroSection = () => {
 						<spline-viewer url="https://prod.spline.design/47eTGqG1FN7hVnOI/scene.splinecode"></spline-viewer> */}
 				</div>
 			</section>
-			<Services />
+			{/* <Services />
 			<Clients />
 			<WhyChooseUs />
-			<Contactus />
+			<Contactus /> */}
 		</div>
 	);
 };

@@ -11,7 +11,7 @@ const Services = () => {
 				<div className=" absolute left-0 -z-0 h-80">
 					{/* <ModelCanvas model="./cubic.gltf"/> */}
 				</div>
-				<ul className="my-10 grid grid-cols-1 md:grid-cols-2">
+				<ul className="my-10 grid grid-cols-1 md:grid-cols-2 gap-7">
 					<li className=" md:text-4xl text-2xl font-montserrat font-light my-10 md:px-20 px-5  py-3 md:w-40v border-gray-500 border-2 rounded-3xl relative ">
 						<span className=" absolute right-0 h-20 md:w-96 w-36 bg-gradient-to-tr from-primary to-teal-500 blur-3xl"></span>
 						<span className=" py-2  ">
@@ -56,7 +56,7 @@ const Services = () => {
 			</div>
 
 			<div className="flex justify-center items-center">
-				<Button text="Discover Services" width="w-60" url="knowservices"/>
+				{/* <Button text="Discover Services" width="w-60" url="knowservices"/> */}
 			</div>
 		</div>
 	);

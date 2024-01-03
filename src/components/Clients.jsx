@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "./Button";
 import safeair from "../assets/clients/safeair.jpeg";
+import pearls from "../assets/clients/pearls.png";
 
 const Clients = () => {
     return (
@@ -21,6 +22,10 @@ const Clients = () => {
 					<li className=" text-4xl font-montserrat font-light my-10 md:px-20 md:mx-20 py-3 w-full flex flex-col items-center justify-center gap-10">
                     <Image className=" border-8 " src="/images/clients/1.png" width={200} height={200} alt="img" />
                         <h1 className=" text-center">Global AgriTech</h1>
+					</li>
+					<li className=" text-4xl font-montserrat font-light my-10 md:px-20 md:mx-20 py-3 w-full flex flex-col items-center justify-center gap-10">
+                    <Image className=" border-8 " src={pearls} width={200} height={200} alt="img" />
+                        <h1 className=" text-center">Pearls Dental Care</h1>
 					</li>
 				</ul>
 			</div>
